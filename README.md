@@ -1,10 +1,29 @@
-# CampaignManager
+# Campaign Manager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+Campaign Manager is a frontend Angular application for managing marketing campaigns, connected to a mock backend API.
+The app demonstrates modern Angular development patterns using RxJS for state management and reactive programming.
+
+## 🚀 Features
+- **Browse Campaigns**: Display campaigns in a structured table with all key metrics
+- **Inline Editing**: Edit campaign details directly in the table with instant save/cancel actions
+- **Create Campaigns**: Add new campaigns through a reactive form with validation and balance tracking
+- **CRUD Operations**: Full Create, Read, Update, and Delete functionality for campaigns
+- **Reactive Architecture**: Built using RxJS BehaviorSubject and Observables for efficient state management
+
+## 🛠️ Technologies Used
+
+### Frontend
+- [Angular](https://angular.io/)
+- [RxJS](https://rxjs.dev/)
+
+### Backend (Mock API)
+- [JSON Server for mock REST API]
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Install dependencies for frontend: `npm install`
+- Start the mock API server: `json-server --watch db.json --port 3000`.
+- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
