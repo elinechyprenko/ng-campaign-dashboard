@@ -3,6 +3,9 @@
 Campaign Manager is a frontend Angular application for managing marketing campaigns, connected to a mock backend API.
 The app demonstrates modern Angular development patterns using RxJS for state management and reactive programming.
 
+![Create a new compaign](https://github.com/elinechyprenko/ng-campaign-dashboard/blob/master/create_campaign.png)
+![Сompaign List](https://github.com/elinechyprenko/ng-campaign-dashboard/blob/master/campaign_list.png)
+
 ## 🚀 Features
 - **Browse Campaigns**: Display campaigns in a structured table with all key metrics
 - **Inline Editing**: Edit campaign details directly in the table with instant save/cancel actions
